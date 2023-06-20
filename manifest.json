@@ -3,7 +3,7 @@
     "version": "0.10.9",
     "notifications": [
         {
-            "date": 1684230174,
+            "date": 1687245303,
             "type": "update",
             "message": "Update to 0.10.9 is available.",
             "link": "https://github.com/lnbits/lnbits/releases/tag/0.10.9"
