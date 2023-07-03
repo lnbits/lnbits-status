@@ -1,5 +1,5 @@
 {
-    "killswitch": 0,
+    "killswitch": 1,
     "version": "0.10.9",
     "notifications": [
         {
