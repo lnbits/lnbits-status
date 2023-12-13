@@ -1,7 +1,13 @@
 {
     "killswitch": 0,
-    "version": "0.10.9",
+    "version": "0.11.3",
     "notifications": [
+        {
+            "date": 1702476458,
+            "type": "update",
+            "message": "Update to 0.11.3 is available.",
+            "link": "https://github.com/lnbits/lnbits/releases/tag/0.11.3"
+        },
         {
             "date": 1687245303,
             "type": "update",
