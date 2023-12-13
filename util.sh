@@ -2,7 +2,6 @@
 #
 # example
 # sh util.sh update 1.0.0
-# sh util.sh pull
 #
 
 update(){
@@ -19,7 +18,7 @@ update(){
        --arg t "update" \
        --arg msg "Update to $version is available." \
        --arg link "https://github.com/lnbits/lnbits/releases/tag/$1" \
-       '.notifications |= [{date:$ts,type:$t,message:$msg,link:$link}] + .' \
+       '.notifications |= [{date:$ts|tonumber,type:$t,message:$msg,link:$link}] + .' \
        manifest.json > "$tmp" && mv "$tmp" manifest.json
 }
 
